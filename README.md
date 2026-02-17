@@ -1,2 +1,23 @@
-# Operations-dashboard
-Built an Operations Performance Dashboard using Python and Streamlit to analyze task completion rates, SLA compliance, and department performance. The app allows users to upload structured CSV datasets and generates interactive KPI visualizations to support operational decision-making
+# Operations Performance Dashboard
+
+An interactive KPI dashboard built using Python and Streamlit to monitor operational performance metrics.
+
+## Features
+- Upload CSV dataset
+- Calculates Completion Rate
+- SLA Compliance Tracking
+- Department Performance Visualization
+
+## Required Columns
+- Date
+- Department
+- Tasks_Assigned
+- Tasks_Completed
+- Completion_Time
+- SLA_Target
+
+## Technologies Used
+- Python
+- Pandas
+- Streamlit
+- Plotly
